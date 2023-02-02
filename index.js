@@ -63,4 +63,5 @@ while (nombreDeLaBebida !== "Salir") {
 if (acumulado > 0) {
   totalBebida = acumulado + acumulado * 0.21;
   console.log("El total es: $" + totalBebida);
+  alert("El total a pagar es: $" + totalBebida);
 }

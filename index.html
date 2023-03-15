@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript</title>
+    <link rel="icon" type="image/jpg" href="/media/favicon.png" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,9 +19,387 @@
     />
   </head>
   <body>
-    <main></main>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="/media/logo_transparent.png" alt="Logo El Bodeguero" />
+          </span>
+
+          <div class="text logo-text">
+            <span class="name">El Bodeguero</span>
+            <span class="profession">Central de Bebidas</span>
+          </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="text" placeholder="Search" />
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class="bx bx-home-alt icon"></i>
+              <span class="text nav-text">Home</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class="bx bx-cart-add icon"></i>
+              <span class="text nav-text">Carrito</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class="bx bxs-offer icon"></i>
+              <span class="text nav-text">Promociones</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class="bx bx-wallet icon"></i>
+              <span class="text nav-text">Pagar</span>
+            </a>
+          </li>
+        </div>
+
+        <div class="bottom-content">
+          <li class="">
+            <a href="#">
+              <i class="bx bx-log-in icon"></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <main class="home">
+      <div class="text">Cervezas</div>
+
+      <div id="listaDeProductos"></div>
+
+      <!-- <div
+        id="listaDeProductos"
+        class="row text-center row-cols-1 row-cols-md-3 g-2"
+      >
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/quilmes_stout_lata.png"
+              class="card-img-top"
+              alt="Quilmes Scout Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Quilmes Stout X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/quilmes_scout_botella.png"
+              class="card-img-top"
+              alt="Quilmes Scout Botella"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Quilmes Scout Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/quilmes_redlager_lata.png"
+              class="card-img-top"
+              alt="Quilmes Red Lager Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Quilmes Red Lager X6 Lata</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/quilmes_redlager_botella.png"
+              class="card-img-top"
+              alt="Quilmes Red Lager Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Quilmes Red Lager Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/quilmes_clasica-lata.png"
+              class="card-img-top"
+              alt="Quilmes Clasica Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Quilmes Clasica X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/quilmes_clasica_botella.png"
+              class="card-img-top"
+              alt="Quilmes Clasica Botella"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Quilmes Clasica Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/quilmes_bock_lata.png"
+              class="card-img-top"
+              alt="Quilmes Block Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Quilmes Block X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/andes_origen_roja_lata.png"
+              class="card-img-top"
+              alt="Andes Origen Roja Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Andes Origen Roja X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/andes_origen_negra_lata.png"
+              class="card-img-top"
+              alt="Andes Origen Negra Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Andes Origen Negra X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/andes_origen_rubia_lata.png"
+              class="card-img-top"
+              alt="Andes Origen Rubia Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Andes Origen Rubia X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/andes_origen_ipa-lata.png"
+              class="card-img-top"
+              alt="Andes Origen IPA Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Andes Origen IPA X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_weisse_lata.png"
+              class="card-img-top"
+              alt="Patagonia Weisse Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Weisse X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_weisse_botella.png"
+              class="card-img-top"
+              alt="Patagonia Weisse Botella"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Weisse Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_küné_lata.png"
+              class="card-img-top"
+              alt="Patagonia Küné Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Küné X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_küné_botella.png"
+              class="card-img-top"
+              alt="Patagonia Küné Botella"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Küné Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_bohemian_pilsener_lata.png"
+              class="card-img-top"
+              alt="Patagonia Bohemian Pilsener Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Bohemian Pilsner X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_bohemian_pilsener_botella.png"
+              class="card-img-top"
+              alt="Patagonia Bohemian Pilsener Botella"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Bohemian Pilsener Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_24.7_session_IPA_lata.png"
+              class="card-img-top"
+              alt="Patagonia 24.7 Session IPA Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia 24.7 Session IPA X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_24.7_session_ipa_botella.png"
+              class="card-img-top"
+              alt="Patagonia 24.7 Session IPA Botella"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia 24.7 Session IPA Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_amber_lager_lata.png"
+              class="card-img-top"
+              alt="Patagonia Amber Lager Lata"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Amber Lager X6 Latas</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="./media/patagonia_amber_lager_botella.png"
+              class="card-img-top"
+              alt="Patagonia Amber Lager Botella"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Patagonia Amber Lager Botella</h6>
+            </div>
+            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+          </div>
+        </div>
+      </div> -->
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/index.js"></script>
+    <script src="./js/index.js"></script>
     <script
       src="https://kit.fontawesome.com/2c36e9b7b1.js"
       crossorigin="anonymous"

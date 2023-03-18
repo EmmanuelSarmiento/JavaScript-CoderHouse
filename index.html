@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript</title>
     <link rel="icon" type="image/jpg" href="/media/favicon.png" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -17,6 +17,10 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/2c36e9b7b1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="sidebar close">
@@ -54,6 +58,15 @@
               <i class="bx bx-cart-add icon"></i>
               <span class="text nav-text">Carrito</span>
             </a>
+            <div id="carrito">
+              <table id="lista-carrito" class="u-full-width">
+                <tbody></tbody>
+              </table>
+
+              <a href="#" id="vaciar-carrito" class="button u-full-width"
+                >Vaciar Carrito</a
+              >
+            </div>
           </li>
 
           <li class="nav-link">
@@ -97,7 +110,10 @@
     <main class="home">
       <div class="text">Cervezas</div>
 
-      <div id="listaDeProductos"></div>
+      <div
+        id="listaDeProductos"
+        class="row text-center row-cols-1 row-cols-md-3 g-2"
+      ></div>
 
       <!-- <div
         id="listaDeProductos"

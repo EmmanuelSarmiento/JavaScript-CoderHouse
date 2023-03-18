@@ -1,191 +1,171 @@
 [
   {
     "id": 1,
-    "marca": "Quilmes",
-    "sabor": "Stout",
-    "envase": "Lata",
+    "titulo": "Quilmes Stout Lata",
     "cantidad": 1,
     "precio": 320,
-    "total": 0
+    "img": "quilmes_scout_lata.png",
+    "dataId": "A1"
   },
   {
     "id": 2,
-    "marca": "Quilmes",
-    "sabor": "Stout",
-    "envase": "Botella",
+    "titulo": "Quilmes Stout Botella",
     "cantidad": 1,
     "precio": 300,
-    "total": 0
+    "img": "quilmes_scout_botella.png",
+    "dataId": "A2"
   },
   {
     "id": 3,
-    "marca": "Quilmes",
-    "sabor": "Red Lager",
-    "envase": "Lata",
+    "titulo": "Quilmes Red Lager Lata",
     "cantidad": 1,
     "precio": 320,
-    "total": 0
+    "img": "quilmes_redlager_lata.png",
+    "dataId": "A3"
   },
   {
     "id": 4,
-    "marca": "Quilmes",
-    "sabor": "Red Lager",
-    "envase": "Botella",
+    "titulo": "Quilmes Red Lager Botella",
     "cantidad": 1,
     "precio": 300,
-    "total": 0
+    "img": "quilmes_redlager_botella.png",
+    "dataId": "A4"
   },
   {
     "id": 5,
-    "marca": "Quilmes",
-    "sabor": "Clasica",
-    "envase": "Lata",
+    "titulo": "Quilmes Clasica Lata",
     "cantidad": 1,
     "precio": 320,
-    "total": 0
+    "img": "quilmes_clasica_lata.png",
+    "dataId": "A5"
   },
   {
     "id": 6,
-    "marca": "Quilmes",
-    "sabor": "Bock",
-    "envase": "Lata",
+    "titulo": "Quilmes Clasica Botella",
     "cantidad": 1,
-    "precio": 320,
-    "total": 0
+    "precio": 300,
+    "img": "quilmes_clasica_botella.png",
+    "dataId": "A+"
   },
   {
     "id": 7,
-    "marca": "Quilmes",
-    "sabor": "Clasica",
-    "envase": "Botella",
+    "titulo": "Quilmes Bock Lata",
     "cantidad": 1,
-    "precio": 300,
-    "total": 0
+    "precio": 320,
+    "img": "quilmes_bock_lata.png",
+    "dataId": "A7"
   },
+
   {
     "id": 8,
-    "marca": "Andes",
-    "sabor": "Roja",
-    "envase": "Lata",
+    "titulo": "Andes Roja Lata",
     "cantidad": 1,
     "precio": 390,
-    "total": 0
+    "img": "andes_origen_roja_lata.png",
+    "dataId": "A8"
   },
   {
     "id": 9,
-    "marca": "Andes",
-    "sabor": "Negra",
-    "envase": "Lata",
+    "titulo": "Andes Negra Lata",
     "cantidad": 1,
     "precio": 390,
-    "total": 0
+    "img": "andes_origen_negra_lata.png",
+    "dataId": "A9"
   },
   {
     "id": 10,
-    "marca": "Andes",
-    "sabor": "Rubia",
-    "envase": "Lata",
+    "titulo": "Andes Rubia Lata",
     "cantidad": 1,
     "precio": 390,
-    "total": 0
+    "img": "andes_origen_rubia_lata.png",
+    "dataId": "A10"
   },
   {
     "id": 11,
-    "marca": "Andes",
-    "sabor": "IPA",
-    "envase": "Lata",
+    "titulo": "Andes IPA Lata",
     "cantidad": 1,
     "precio": 390,
-    "total": 0
+    "img": "andes_origen_ipa_lata.png",
+    "dataId": "A11"
   },
   {
     "id": 12,
-    "marca": "Patagonia",
-    "sabor": "Weisse",
-    "envase": "Lata",
+    "titulo": "Patagonia Weisse Lata",
     "cantidad": 1,
     "precio": 410,
-    "total": 0
+    "img": "patagonia_weisse_lata.png",
+    "dataId": "A12"
   },
   {
     "id": 13,
-    "marca": "Patagonia",
-    "sabor": "Weisse",
-    "envase": "Botella",
+    "titulo": "Patagonia Weisse Botella",
     "cantidad": 1,
     "precio": 700,
-    "total": 0
+    "img": "patagonia_weisse_botella.png",
+    "dataId": "A13"
   },
   {
     "id": 14,
-    "marca": "Patagonia",
-    "sabor": "Kune",
-    "envase": "Lata",
+    "titulo": "Patagonia Kune Lata",
     "cantidad": 1,
     "precio": 410,
-    "total": 0
+    "img": "patagonia_kune_lata.png",
+    "dataId": "A14"
   },
   {
     "id": 15,
-    "marca": "Stella",
-    "sabor": "Kune",
-    "envase": "Botella",
+    "titulo": "Patagonia Kune Botella",
     "cantidad": 1,
     "precio": 700,
-    "total": 0
+    "img": "patagonia_kune_botella.png",
+    "dataId": "A15"
   },
   {
     "id": 16,
-    "marca": "Patagonia",
-    "sabor": "Bohemia Pilsner",
-    "envase": "Lata",
+    "titulo": "Patagonia Bohemia Pilsner Lata",
     "cantidad": 1,
     "precio": 410,
-    "total": 0
+    "img": "patagonia_bohemian_pilsener_lata.png",
+    "dataId": "A16"
   },
   {
     "id": 17,
-    "marca": "Patagonia",
-    "sabor": "Bohemia Pilsner",
-    "envase": "Botella",
+    "titulo": "Patagonia Bohemia Pilsner Botella",
     "cantidad": 1,
     "precio": 700,
-    "total": 0
+    "img": "patagonia_bohemian_pilsener_botella.png",
+    "dataId": "A17"
   },
   {
     "id": 18,
-    "marca": "Patagonia",
-    "sabor": "IPA",
-    "envase": "Lata",
+    "titulo": "Patagonia IPA Lata",
     "cantidad": 1,
     "precio": 410,
-    "total": 0
+    "img": "patagonia_24.7_session_ipa_lata.png",
+    "dataId": "A18"
   },
   {
     "id": 19,
-    "marca": "Patagonia",
-    "sabor": "IPA",
-    "envase": "Botella",
+    "titulo": "Patagonia IPA Botella",
     "cantidad": 1,
     "precio": 700,
-    "total": 0
+    "img": "patagonia_24.7_session_ipa_botella.png",
+    "dataId": "A19"
   },
   {
     "id": 20,
-    "marca": "Patagonia",
-    "sabor": "Amber",
-    "envase": "Lata",
+    "titulo": "Patagonia Amber Lata",
     "cantidad": 1,
     "precio": 460,
-    "total": 0
+    "img": "patagonia_amber_lager_lata.png",
+    "dataId": "A20"
   },
   {
     "id": 21,
-    "marca": "Patagonia",
-    "sabor": "Amber",
-    "envase": "Botella",
+    "titulo": "Patagonia Botella",
     "cantidad": 1,
     "precio": 700,
-    "total": 0
+    "img": "patagonia_amber_lager_botella.png",
+    "dataId": "A21"
   }
 ]

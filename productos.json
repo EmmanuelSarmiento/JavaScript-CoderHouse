@@ -4,56 +4,49 @@
     "titulo": "Quilmes Stout Lata",
     "cantidad": 1,
     "precio": 320,
-    "img": "quilmes_scout_lata.png",
-    "dataId": "A1"
+    "img": "quilmes_scout_lata.png"
   },
   {
     "id": 2,
     "titulo": "Quilmes Stout Botella",
     "cantidad": 1,
     "precio": 300,
-    "img": "quilmes_scout_botella.png",
-    "dataId": "A2"
+    "img": "quilmes_scout_botella.png"
   },
   {
     "id": 3,
     "titulo": "Quilmes Red Lager Lata",
     "cantidad": 1,
     "precio": 320,
-    "img": "quilmes_redlager_lata.png",
-    "dataId": "A3"
+    "img": "quilmes_redlager_lata.png"
   },
   {
     "id": 4,
     "titulo": "Quilmes Red Lager Botella",
     "cantidad": 1,
     "precio": 300,
-    "img": "quilmes_redlager_botella.png",
-    "dataId": "A4"
+    "img": "quilmes_redlager_botella.png"
   },
   {
     "id": 5,
     "titulo": "Quilmes Clasica Lata",
     "cantidad": 1,
     "precio": 320,
-    "img": "quilmes_clasica_lata.png",
-    "dataId": "A5"
+    "img": "quilmes_clasica_lata.png"
   },
   {
     "id": 6,
     "titulo": "Quilmes Clasica Botella",
     "cantidad": 1,
     "precio": 300,
-    "img": "quilmes_clasica_botella.png",
-    "dataId": "A+"
+    "img": "quilmes_clasica_botella.png"
   },
   {
     "id": 7,
     "titulo": "Quilmes Bock Lata",
     "cantidad": 1,
     "precio": 320,
-    "img": "quilmes_bock_lata.png",
-    "dataId": "A7"
+    "img": "quilmes_bock_lata.png"
   },
 
   {
@@ -61,111 +54,97 @@
     "titulo": "Andes Roja Lata",
     "cantidad": 1,
     "precio": 390,
-    "img": "andes_origen_roja_lata.png",
-    "dataId": "A8"
+    "img": "andes_origen_roja_lata.png"
   },
   {
     "id": 9,
     "titulo": "Andes Negra Lata",
     "cantidad": 1,
     "precio": 390,
-    "img": "andes_origen_negra_lata.png",
-    "dataId": "A9"
+    "img": "andes_origen_negra_lata.png"
   },
   {
     "id": 10,
     "titulo": "Andes Rubia Lata",
     "cantidad": 1,
     "precio": 390,
-    "img": "andes_origen_rubia_lata.png",
-    "dataId": "A10"
+    "img": "andes_origen_rubia_lata.png"
   },
   {
     "id": 11,
     "titulo": "Andes IPA Lata",
     "cantidad": 1,
     "precio": 390,
-    "img": "andes_origen_ipa_lata.png",
-    "dataId": "A11"
+    "img": "andes_origen_ipa_lata.png"
   },
   {
     "id": 12,
     "titulo": "Patagonia Weisse Lata",
     "cantidad": 1,
     "precio": 410,
-    "img": "patagonia_weisse_lata.png",
-    "dataId": "A12"
+    "img": "patagonia_weisse_lata.png"
   },
   {
     "id": 13,
     "titulo": "Patagonia Weisse Botella",
     "cantidad": 1,
     "precio": 700,
-    "img": "patagonia_weisse_botella.png",
-    "dataId": "A13"
+    "img": "patagonia_weisse_botella.png"
   },
   {
     "id": 14,
     "titulo": "Patagonia Kune Lata",
     "cantidad": 1,
     "precio": 410,
-    "img": "patagonia_kune_lata.png",
-    "dataId": "A14"
+    "img": "patagonia_kune_lata.png"
   },
   {
     "id": 15,
     "titulo": "Patagonia Kune Botella",
     "cantidad": 1,
     "precio": 700,
-    "img": "patagonia_kune_botella.png",
-    "dataId": "A15"
+    "img": "patagonia_kune_botella.png"
   },
   {
     "id": 16,
     "titulo": "Patagonia Bohemia Pilsner Lata",
     "cantidad": 1,
     "precio": 410,
-    "img": "patagonia_bohemian_pilsener_lata.png",
-    "dataId": "A16"
+    "img": "patagonia_bohemian_pilsener_lata.png"
   },
   {
     "id": 17,
     "titulo": "Patagonia Bohemia Pilsner Botella",
     "cantidad": 1,
     "precio": 700,
-    "img": "patagonia_bohemian_pilsener_botella.png",
-    "dataId": "A17"
+    "img": "patagonia_bohemian_pilsener_botella.png"
   },
   {
     "id": 18,
     "titulo": "Patagonia IPA Lata",
     "cantidad": 1,
     "precio": 410,
-    "img": "patagonia_24.7_session_ipa_lata.png",
-    "dataId": "A18"
+    "img": "patagonia_24.7_session_ipa_lata.png"
   },
   {
     "id": 19,
     "titulo": "Patagonia IPA Botella",
     "cantidad": 1,
     "precio": 700,
-    "img": "patagonia_24.7_session_ipa_botella.png",
-    "dataId": "A19"
+    "img": "patagonia_24.7_session_ipa_botella.png"
   },
   {
     "id": 20,
     "titulo": "Patagonia Amber Lata",
     "cantidad": 1,
     "precio": 460,
-    "img": "patagonia_amber_lager_lata.png",
-    "dataId": "A20"
+    "img": "patagonia_amber_lager_lata.png"
   },
   {
     "id": 21,
     "titulo": "Patagonia Botella",
     "cantidad": 1,
     "precio": 700,
-    "img": "patagonia_amber_lager_botella.png",
-    "dataId": "A21"
+    "img": "patagonia_amber_lager_botella.png"
   }
 ]
